@@ -1,0 +1,14 @@
+body, table { font-size: 10px }
+
+.hideRow{
+	display:none;
+}
+
+@media print
+{
+	.no-print, .no-print *
+	{
+		display: none !important;
+	}
+
+}

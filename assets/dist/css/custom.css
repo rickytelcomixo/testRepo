@@ -1,0 +1,50 @@
+.ibox-tools {
+	display: inline-block;
+	float: right;
+	margin-top: 0;
+	position: relative;
+	padding: 0;
+}
+
+.control-label{
+	color:#333333;
+}
+
+.form-group.required .control-label:after {
+  content:" *";
+  color:red;
+}
+
+form .required {
+	color:#333333 !important;
+}
+
+.dataTable > thead > tr > th[class*="sort"]::after{display: none}
+
+.hideRow{
+	display:none;
+}
+
+@media print
+{
+	.no-print, .no-print *
+	{
+		display: none !important;
+	}
+
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+input[type=number] {
+-moz-appearance: textfield;
+}
+
+.custom-header {
+	background: #368ee0;
+	color: #ffffff;
+	padding: 2px 8px;
+}
